@@ -1,16 +1,21 @@
 const fs = require("fs");
 const path = require("path");
 
-const defaultTokensFolderPath = path.join(__dirname, "tokens");
-const tokensFolderPath = path.join(__dirname, "prepared-tokens");
+const defaultTokensFilePath = path.join(__dirname, "tokens.json");
+const tokensFolderPath = path.join(__dirname, "tokens");
 
 try {
   if(fs.existsSync(tokensFolderPath)) {
     fs.rmSync(tokensFolderPath, { recursive: true });
   } else {
-    fs.mkdirSync(tokensFolderPath);
+    fs.mkdirSync(tokensFolderPath, { recursive: true });
   }
-  fs.cpSync(defaultTokensFolderPath, tokensFolderPath, { recursive: true });
+  const defaultTokens = JSON.parse(fs.readFileSync(defaultTokensFilePath, "utf8"));
+  Object.keys(defaultTokens).forEach((key) => {
+    console.log(key);
+    fs.mkdirSync(path.join(tokensFolderPath, key), { recursive: true });
+    fs.writeFileSync(path.join(tokensFolderPath, `${key}.json`), JSON.stringify(defaultTokens[key]));
+  });
 } catch (e) {
   console.log(e);
   // silent
