@@ -238,6 +238,40 @@
 #define RadiiRadius20 20
 #define RadiiRadius24 24
 #define RadiiRadius36 36
+#define FontFamiliesTitles Montserrat
+#define FontFamiliesHeadlines Inter
+#define FontFamiliesParagraphs Inter
+#define FontFamiliesCaptions Inter
+#define FontWeightsTitlesTitleXLbold Bold
+#define FontWeightsTitlesTitleMsemibold SemiBold
+#define FontWeightsTitlesTitleLbold Bold
+#define FontWeightsTitlesTitleMbold Bold
+#define FontWeightsHeadlinesHealinebold Bold
+#define FontWeightsHeadlinesHealinesemibold SemiBold
+#define FontWeightsHeadlinesHeadlinemedium Medium
+#define FontWeightsHeadlinesHeadlineregular Regular
+#define FontWeightsParagraphsParagraphsemibold SemiBold
+#define FontWeightsParagraphsParagraphmedium Medium
+#define FontWeightsParagraphsParagraphregular Regular
+#define FontWeightsCaptionsCaptionMsemibold SemiBold
+#define FontWeightsCaptionsCaptionMmedium Medium
+#define FontWeightsCaptionsCaptionSbold Bold
+#define FontWeightsCaptionsCaptionSregular Regular
+#define FontWeightsCaptionsCaptionMregular Regular
+#define FontSizesTitleXl 32
+#define FontSizesTitleL 24
+#define FontSizesTitleM 20
+#define FontSizesHeadline 16
+#define FontSizesParagraph 14
+#define FontSizesCaptionM 11
+#define FontSizesCaptionS 9
+#define LineHeightsTitleXl 40
+#define LineHeightsTitleL 32
+#define LineHeightsTitleM 28
+#define LineHeightsHeadline 20
+#define LineHeightsParagraph 20
+#define LineHeightsCaptionM 16
+#define LineHeightsCaptionS 12
 #define SemanticPrimary10 [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:0.102f]
 #define SemanticPrimary20 [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:0.200f]
 #define SemanticPrimary30 [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:0.302f]
@@ -379,7 +413,6 @@
 #define SemanticErrorDark80 [UIColor colorWithRed:0.663f green:0.039f blue:0.137f alpha:0.800f]
 #define SemanticErrorDark90 [UIColor colorWithRed:0.663f green:0.039f blue:0.137f alpha:0.902f]
 #define SemanticErrorDark100 [UIColor colorWithRed:0.663f green:0.039f blue:0.137f alpha:1.000f]
-#define SemanticTest100 [UIColor colorWithRed:0.902f green:0.651f blue:0.000f alpha:1.000f]
 #define ComponentsUserchoiceToggle [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f]
 #define ComponentsUserchoiceTextPrimary [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:1.000f]
 #define ComponentsUserchoiceTextLink [UIColor colorWithRed:0.322f green:0.169f blue:0.882f alpha:1.000f]
@@ -489,37 +522,3 @@
 #define ComponentsChipspushSecondary [UIColor colorWithRed:0.463f green:0.463f blue:0.463f alpha:1.000f]
 #define ComponentsChipspushBody [UIColor colorWithRed:0.078f green:0.078f blue:0.129f alpha:1.000f]
 #define ComponentsChipspushIcon [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:1.000f]
-#define FontFamiliesTitles Montserrat
-#define FontFamiliesHeadlines Inter
-#define FontFamiliesParagraphs Inter
-#define FontFamiliesCaptions Inter
-#define FontWeightsTitlesTitleXLbold Bold
-#define FontWeightsTitlesTitleMsemibold SemiBold
-#define FontWeightsTitlesTitleLbold Bold
-#define FontWeightsTitlesTitleMbold Bold
-#define FontWeightsHeadlinesHealinebold Bold
-#define FontWeightsHeadlinesHealinesemibold SemiBold
-#define FontWeightsHeadlinesHeadlinemedium Medium
-#define FontWeightsHeadlinesHeadlineregular Regular
-#define FontWeightsParagraphsParagraphsemibold SemiBold
-#define FontWeightsParagraphsParagraphmedium Medium
-#define FontWeightsParagraphsParagraphregular Regular
-#define FontWeightsCaptionsCaptionMsemibold SemiBold
-#define FontWeightsCaptionsCaptionMmedium Medium
-#define FontWeightsCaptionsCaptionSbold Bold
-#define FontWeightsCaptionsCaptionSregular Regular
-#define FontWeightsCaptionsCaptionMregular Regular
-#define FontSizesTitleXl 32
-#define FontSizesTitleL 24
-#define FontSizesTitleM 20
-#define FontSizesHeadline 16
-#define FontSizesParagraph 14
-#define FontSizesCaptionM 11
-#define FontSizesCaptionS 9
-#define LineHeightsTitleXl 40
-#define LineHeightsTitleL 32
-#define LineHeightsTitleM 28
-#define LineHeightsHeadline 20
-#define LineHeightsParagraph 20
-#define LineHeightsCaptionM 16
-#define LineHeightsCaptionS 12

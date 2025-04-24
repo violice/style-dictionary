@@ -235,7 +235,6 @@
   <color name="semantic_error_dark_80">#ccd90d2d</color>
   <color name="semantic_error_dark_90">#e6d90d2d</color>
   <color name="semantic_error_dark_100">#ffd90d2d</color>
-  <color name="semantic_test_100">#ffe6a600</color>
   <color name="components_userchoice_toggle">#ffffffff</color>
   <color name="components_userchoice_text_primary">#ff20202d</color>
   <color name="components_userchoice_text_link">#ff745ff8</color>
