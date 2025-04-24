@@ -5,7 +5,9 @@
   "main": "",
   "scripts": {
     "dev": "chokidar \"./tokens/**/*.json\" -c \"npm run build\"",
-    "build": "style-dictionary build"
+    "prebuild": "node ./prepare.js",
+    "build": "node ./build.js",
+    "prepare": "node ./prepare.js"
   },
   "author": "",
   "license": "ISC",
