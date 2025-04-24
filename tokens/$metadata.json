@@ -1,1 +1,12 @@
-{"tokenSetOrder":["00 - xBase/4px","03 - Colors/Light","03 - Colors/Dark","04 - Typography/Mode 1","01 - Sizes, spaces, radii/Value"]}
+{
+  "tokenSetOrder": [
+    "00 - xBase/4px",
+    "03 - Colors/Light",
+    "03 - Colors/Dark",
+    "04 - Typography/Mode 1",
+    "01 - Sizes, spaces, radii/Value",
+    "02 - Devices/Small Mobile",
+    "02 - Devices/Mobile",
+    "02 - Devices/Tablet"
+  ]
+}

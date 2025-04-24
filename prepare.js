@@ -1,7 +1,20 @@
 const fs = require("fs");
 const path = require("path");
 
-const tokensFolderPath = path.join(__dirname, "tokens");
+const defaultTokensFolderPath = path.join(__dirname, "tokens");
+const tokensFolderPath = path.join(__dirname, "prepared-tokens");
+
+try {
+  if(fs.existsSync(tokensFolderPath)) {
+    fs.rmSync(tokensFolderPath, { recursive: true });
+  } else {
+    fs.mkdirSync(tokensFolderPath);
+  }
+  fs.cpSync(defaultTokensFolderPath, tokensFolderPath, { recursive: true });
+} catch (e) {
+  console.log(e);
+  // silent
+}
 
 try {
   const metadataFilePath = path.join(tokensFolderPath, "$metadata.json");

@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const StyleDictionary = require("style-dictionary").default;
 const { formats } = require("style-dictionary/enums");
-const tokensFolderPath = path.join(__dirname, "tokens");
+const tokensFolderPath = path.join(__dirname, "prepared-tokens");
 
 const {
   androidColors,
@@ -21,7 +21,7 @@ const getSource = (color) => {
     }
     return item;
   });
-  return tokensOrder.map((item) => `tokens/${item}.json`);
+  return tokensOrder.map((item) => `prepared-tokens/${item}.json`);
 };
 
 const getStyleDictionaryConfig = (color) => {
