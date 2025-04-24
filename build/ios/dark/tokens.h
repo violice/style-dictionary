@@ -399,6 +399,15 @@
 #define ComponentsNoImageIcon [UIColor colorWithRed:0.208f green:0.208f blue:0.294f alpha:1.000f]
 #define ComponentsCategoryText [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:1.000f]
 #define ComponentsCategoryBg [UIColor colorWithRed:0.043f green:0.043f blue:0.059f alpha:1.000f]
+#define ComponentsPopupText [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:1.000f]
+#define ComponentsPopupBody [UIColor colorWithRed:0.078f green:0.078f blue:0.129f alpha:1.000f]
+#define ComponentsPopupDraghandle [UIColor colorWithRed:0.208f green:0.208f blue:0.294f alpha:1.000f]
+#define ComponentsPopupIcon [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:1.000f]
+#define ComponentsCellText [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:1.000f]
+#define ComponentsChipspushPrimary [UIColor colorWithRed:0.961f green:0.961f blue:0.973f alpha:1.000f]
+#define ComponentsChipspushSecondary [UIColor colorWithRed:0.463f green:0.463f blue:0.463f alpha:1.000f]
+#define ComponentsChipspushBody [UIColor colorWithRed:0.078f green:0.078f blue:0.129f alpha:1.000f]
+#define ComponentsChipspushIcon [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:1.000f]
 #define FontFamiliesTitles Montserrat
 #define FontFamiliesHeadlines Inter
 #define FontFamiliesParagraphs Inter

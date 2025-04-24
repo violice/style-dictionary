@@ -393,6 +393,15 @@
   --components-no-image-icon: #d8d8e7;
   --components-category-text: #20202d;
   --components-category-bg: #f5f5f8;
+  --components-popup-text: #20202d;
+  --components-popup-body: #ffffff;
+  --components-popup-draghandle: #d8d8e7;
+  --components-popup-icon: #f53b46;
+  --components-cell-text: #20202d;
+  --components-chipspush-primary: #20202d;
+  --components-chipspush-secondary: #767676;
+  --components-chipspush-body: #ffffff;
+  --components-chipspush-icon: #f53b46;
   --font-families-titles: Montserrat;
   --font-families-headlines: Inter;
   --font-families-paragraphs: Inter;

@@ -335,4 +335,13 @@
   <color name="components_no_image_icon">#ff35354b</color>
   <color name="components_category_text">#fff5f5f8</color>
   <color name="components_category_bg">#ff0b0b0f</color>
+  <color name="components_popup_text">#fff5f5f8</color>
+  <color name="components_popup_body">#ff141421</color>
+  <color name="components_popup_draghandle">#ff35354b</color>
+  <color name="components_popup_icon">#ffd90d2d</color>
+  <color name="components_cell_text">#fff5f5f8</color>
+  <color name="components_chipspush_primary">#fff5f5f8</color>
+  <color name="components_chipspush_secondary">#ff767676</color>
+  <color name="components_chipspush_body">#ff141421</color>
+  <color name="components_chipspush_icon">#ffd90d2d</color>
 </resources>
