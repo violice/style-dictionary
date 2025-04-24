@@ -12,12 +12,10 @@ try {
   }
   const defaultTokens = JSON.parse(fs.readFileSync(defaultTokensFilePath, "utf8"));
   Object.keys(defaultTokens).forEach((key) => {
-    console.log(key);
     fs.mkdirSync(path.join(tokensFolderPath, key), { recursive: true });
     fs.writeFileSync(path.join(tokensFolderPath, `${key}.json`), JSON.stringify(defaultTokens[key]));
   });
 } catch (e) {
-  console.log(e);
   // silent
 }
 

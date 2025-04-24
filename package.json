@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "dev": "chokidar \"./tokens/**/*.json\" -c \"npm run build\"",
+    "dev": "chokidar \"./tokens.json\" -c \"npm run build\"",
     "prebuild": "node ./prepare.js",
     "build": "node ./build.js",
     "prepare": "node ./prepare.js"
