@@ -1,0 +1,16 @@
+{
+  "name": "style-dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "chokidar \"./tokens/**/*.json\" -c \"npm run build\"",
+    "build": "style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar-cli": "^3.0.0",
+    "style-dictionary": "^4.3.3"
+  }
+}
