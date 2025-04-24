@@ -1095,6 +1095,48 @@
         "$type": "color",
         "$value": "{semantic.neutral 1.100}"
       }
+    },
+    "popup": {
+      "text": {
+        "$type": "color",
+        "$value": "{semantic.primary.100}"
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{semantic.background.100}"
+      },
+      "draghandle": {
+        "$type": "color",
+        "$value": "{semantic.neutral 2.100}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{semantic.error.100}"
+      }
+    },
+    "cell": {
+      "text": {
+        "$type": "color",
+        "$value": "{semantic.primary.100}"
+      }
+    },
+    "chipspush": {
+      "primary": {
+        "$type": "color",
+        "$value": "{semantic.primary.100}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{semantic.secondary.100}"
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{semantic.background.100}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{semantic.error.100}"
+      }
     }
   }
 }
