@@ -413,7 +413,6 @@
 #define SemanticErrorDark80 [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:0.800f]
 #define SemanticErrorDark90 [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:0.902f]
 #define SemanticErrorDark100 [UIColor colorWithRed:0.851f green:0.051f blue:0.176f alpha:1.000f]
-#define SemanticTest100 [UIColor colorWithRed:0.902f green:0.651f blue:0.000f alpha:1.000f]
 #define ComponentsUserchoiceToggle [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f]
 #define ComponentsUserchoiceTextPrimary [UIColor colorWithRed:0.125f green:0.125f blue:0.176f alpha:1.000f]
 #define ComponentsUserchoiceTextLink [UIColor colorWithRed:0.455f green:0.373f blue:0.973f alpha:1.000f]
